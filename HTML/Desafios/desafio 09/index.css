@@ -1,0 +1,19 @@
+body {
+  text-align: center;
+  background-color: rgb(40, 44, 44);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  cursor: pointer;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

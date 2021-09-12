@@ -1,0 +1,8 @@
+* {
+  font-size: 100%;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.5em;
+} /*1em = 16px (equivalente ao valor padrão do navegador)*/
+/*font-family, font-variant, font-weight, font-style e font-size*/

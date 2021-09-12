@@ -1,0 +1,22 @@
+p {
+  color: red;
+  text-align: justify;
+  text-indent: 20px;
+  line-height: 25px;
+  direction: ltr;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+}
+h1 {
+  text-align: left;
+  text-decoration: underline;
+  text-shadow: 1px -30px red;
+}
+h2 {
+  text-align: right;
+  text-decoration: overline;
+}
+h3 {
+  text-align: center;
+  text-decoration: line-through;
+}

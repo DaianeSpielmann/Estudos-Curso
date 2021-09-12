@@ -1,0 +1,7 @@
+#conteudo {
+  min-width: 500px;
+  min-height: 20px;
+  background-color: green;
+  color: #fff;
+  padding: 20px;
+} /*width, height, max e min*/

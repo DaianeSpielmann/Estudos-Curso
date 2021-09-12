@@ -1,0 +1,8 @@
+#exemplo {
+  /*border-style: solid;
+  border-width: 5px;
+  border-color: red;*/
+  border: solid 5px red;
+  /*pode ser colocado também o lado que deseja colocar borda: left, top, right e bottom*/
+  outline: dotted 5px green; /*não é possível escolher os lados que será colocada*/
+}
