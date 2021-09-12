@@ -52,6 +52,8 @@
 - Corrigi os conflitos no VSCode
 - Adiciona as modificações - **git add .**
 - Salva o rebase - **git rebase --continue**
+- Puxa usando force-with-lease - **git push --force-with-lease**
+- Caso seja o primeiro push naquela branch - **git push -u origin (nome da branch) --force-with-lease**
 
 **Após terminar de trabalhar na sua branch:**
 
