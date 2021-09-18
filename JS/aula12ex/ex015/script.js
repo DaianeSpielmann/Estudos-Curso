@@ -12,13 +12,13 @@ function carregar() {
   msg.innerHTML = texto;
 
   if (hora >= 0 && hora < 12) {
-    img.src = "manha.png";
+    img.src = "fotos/manha.png";
     document.body.style.background = "#ffe99e";
   } else if (hora >= 12 && hora < 18) {
-    img.src = "tarde.png";
+    img.src = "fotos/tarde.png";
     document.body.style.background = "#fbd6b3";
   } else {
-    img.src = "noite.png";
+    img.src = "fotos/noite.png";
     document.body.style.background = "#1e333a";
   }
 }
