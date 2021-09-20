@@ -12,7 +12,6 @@ function verificar() {
     var genero = "";
     var img = document.createElement("img");
     img.setAttribute("id", "foto");
-
     if (formulario_sexo[0].checked) {
       genero = "Homem";
       if (idade >= 0 && idade < 10) {
