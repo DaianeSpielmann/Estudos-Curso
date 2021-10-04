@@ -1,0 +1,40 @@
+html,
+body {
+  height: 100%;
+}
+
+div#maior {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(187, 187, 180);
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 3px rgba(122, 121, 121, 1);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+div#texto {
+  width: 300px;
+  height: 30px;
+  text-align: center;
+  margin-top: 8px;
+  font-weight: 600;
+}
+
+input {
+  width: 80px;
+  height: 25px;
+  border-radius: 3px;
+  border: 0;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
