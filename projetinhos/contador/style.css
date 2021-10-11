@@ -1,0 +1,60 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+div#pai {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+div#primeira {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+div#segunda {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+span {
+  font-size: 50px;
+  color: green;
+}
+
+button#diminuir {
+  margin: 5px;
+  border-radius: 4px;
+  height: 20px;
+  width: 80px;
+}
+
+button#resetar {
+  margin: 5px;
+  border-radius: 4px;
+  height: 20px;
+  width: 80px;
+}
+
+button#aumentar {
+  margin: 5px;
+  border-radius: 4px;
+  height: 20px;
+  width: 80px;
+}
