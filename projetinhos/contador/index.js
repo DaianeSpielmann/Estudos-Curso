@@ -5,7 +5,7 @@ function diminuir() {
   if (resultado <= 0) {
     window.alert("ERRO! Você chegou ao número zero, clique em aumentar!");
   } else {
-    updateDisplay(--resultado);
+    atualizarContador(--resultado);
   }
 }
 
@@ -13,14 +13,14 @@ function resetar() {
   if (resultado <= 0) {
     window.alert("O contador já foi resetado, clique em aumentar!");
   } else {
-    updateDisplay((resultado = 0));
+    atualizarContador((resultado = 0));
   }
 }
 
 function aumentar() {
-  updateDisplay(++resultado);
+  atualizarContador(++resultado);
 }
 
-function updateDisplay(resultado) {
-  document.getElementById("contador").innerHTML = resultado;
+function atualizarContador(resultado) {
+  div_resultado.innerHTML = resultado;
 }

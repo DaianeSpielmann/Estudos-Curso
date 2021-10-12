@@ -11,14 +11,14 @@ body {
   flex-direction: column;
 }
 
-div#pai {
+#pai {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-div#primeira {
+#primeira {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,7 +27,7 @@ div#primeira {
   font-weight: bold;
 }
 
-div#segunda {
+#segunda {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,22 +38,8 @@ span {
   color: green;
 }
 
-button#diminuir {
-  margin: 5px;
-  border-radius: 4px;
-  height: 20px;
-  width: 80px;
-}
-
-button#resetar {
-  margin: 5px;
-  border-radius: 4px;
-  height: 20px;
-  width: 80px;
-}
-
-button#aumentar {
-  margin: 5px;
+button {
+  margin: 21.44px 5px;
   border-radius: 4px;
   height: 20px;
   width: 80px;

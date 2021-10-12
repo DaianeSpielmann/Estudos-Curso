@@ -7,13 +7,14 @@ function clicar() {
 
   var resultado = document.querySelector("#resultado");
 
-  if (cor1 == "" || cor2 == "") {
+  var existe_cor_vazia = cor1 == "" || cor2 == "";
+
+  if (existe_cor_vazia) {
     resultado.innerHTML = "Adicione valores ao campo para gerar seu degradê!";
   } else {
     document.body.style.background = `linear-gradient(to bottom right, ${cor1}, ${cor2})`;
     resultado.innerHTML = "";
+    input1.value = "";
+    input2.value = "";
   }
-
-  input1.value = "";
-  input2.value = "";
 }
